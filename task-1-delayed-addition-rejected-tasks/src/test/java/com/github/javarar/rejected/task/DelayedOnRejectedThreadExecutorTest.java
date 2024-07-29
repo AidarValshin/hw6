@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class DelayedOnRejectedThreadExecutorTest {
     private final int TASK_COUNT = 30;
     @Test
-    void testName() throws InterruptedException {
+    void tesCorrectWork() throws InterruptedException {
         DelayedOnRejectedThreadExecutor executor = new DelayedOnRejectedThreadExecutor(
                 3,
                 4,
